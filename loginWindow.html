@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Вход в систему</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="nave-wrapper">
+            <a class="brand-logo center">Консультант-синхронизатор</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <form class="col s12 card grey lighten-5">
+            <div>
+                <h4 class="center-align">Login to system</h4>
+            </div>
+            <div class="row">
+                <div class="input-field col s6 offset-s3">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="icon_login" type="text" class="validate">
+                    <label for="icon_login">Enter login</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s6 offset-s3">
+                    <i class="material-icons prefix">vpn_key</i>
+                    <input type="text" id="icon_pass" class="validate">
+                    <label for="icon_pass">Enter password</label>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        const electron = require('electron');
+        const {ipcRenderer} = electron;
+    </script>
+    
+</body>
+</html>
