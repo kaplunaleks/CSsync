@@ -1,0 +1,23 @@
+{
+  "name": "cssync",
+  "version": "1.0.0",
+  "description": "for DIO",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaplunaleks/CSsync.git"
+  },
+  "author": "Aleksandr Kaplun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaplunaleks/CSsync/issues"
+  },
+  "homepage": "https://github.com/kaplunaleks/CSsync#readme",
+  "dependencies": {
+    "electron": "^2.0.7",
+    "ssh2": "^0.6.1"
+  }
+}
